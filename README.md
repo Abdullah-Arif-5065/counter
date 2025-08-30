@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🔢 Counter App  
 
 A simple yet elegant **Counter Application** built with modern web technologies.  
