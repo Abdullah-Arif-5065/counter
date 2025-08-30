@@ -7,12 +7,13 @@ This project demonstrates **state management, component reusability, and clean U
 ---
 
 ## 📸 Preview  
-![Counter App Preview](preview.png)  
+![Counter App Preview](preview.gif)  
 
 ---
 
 ### 🗂️ Project Structure  
-\`\`\`bash
+\`\`\`
+
 ├── public/ # Static assets
 ├── src/ # React source files
 │ ├── components/ # Reusable UI components
@@ -21,6 +22,7 @@ This project demonstrates **state management, component reusability, and clean U
 ├── package.json # Project dependencies
 ├── vite.config.js # Vite configuration
 └── README.md # Documentation
+
 \`\`\`  
 
 ---
@@ -53,13 +55,3 @@ This project demonstrates **state management, component reusability, and clean U
 
 ### 👨‍💻 Author  
 Crafted with focus and curiosity by **Abdullah Arif**  
-' > README.md
-
-# Stage changes
-git add README.md
-
-# Commit with a clear message
-git commit -m "Added preview caption and project structure section"
-
-# Push to GitHub
-git push origin main
