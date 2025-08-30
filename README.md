@@ -1,12 +1,65 @@
-# React + Vite
+cat > README.md << 'EOF'
+# 🔢 Counter App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet elegant **Counter Application** built with modern web technologies.  
+This project demonstrates **state management, component reusability, and clean UI design**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview  
+![Counter App Preview](preview.png)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🗂️ Project Structure  
+\`\`\`bash
+├── public/ # Static assets
+├── src/ # React source files
+│ ├── components/ # Reusable UI components
+│ ├── App.jsx # Root component
+│ └── main.jsx # Entry point
+├── package.json # Project dependencies
+├── vite.config.js # Vite configuration
+└── README.md # Documentation
+\`\`\`  
+
+---
+
+### ⚙️ Frameworks & Tools  
+- **React.js** → Component-based UI development  
+- **JavaScript (ES6+)** → Logic handling  
+- **CSS3** → Styling and layout  
+
+---
+
+## ⚡ Features  
+
+- ➕ **Increment / ➖ Decrement functionality**  
+- 🔄 **Reset button** to restart count  
+- 🎨 Clean and minimal **UI styling**  
+- 📱 **Responsive design** for all devices  
+
+---
+
+## 😎Learning Outcomes
+
+🔑 Understanding state management in React
+
+🧩 Building reusable components
+
+💡 Hands-on with Vite project setup 
+
+---
+
+### 👨‍💻 Author  
+Crafted with focus and curiosity by **Abdullah Arif**  
+' > README.md
+
+# Stage changes
+git add README.md
+
+# Commit with a clear message
+git commit -m "Added preview caption and project structure section"
+
+# Push to GitHub
+git push origin main
